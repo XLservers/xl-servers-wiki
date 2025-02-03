@@ -1,0 +1,8 @@
+{
+  "label": "Основная информация",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Основная информация по серверу."
+  }
+}

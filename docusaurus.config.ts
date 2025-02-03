@@ -79,7 +79,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Вики',
         },
         {to: '/blog', label: 'Блог (не настроен)', position: 'left'},
         {
