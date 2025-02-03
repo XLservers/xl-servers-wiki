@@ -2,7 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 authors: [uert, nik]
-tags: [hola, docusaurus]
+tags: [test]
 ---
 
 Lorem ipsum dolor sit amet...
