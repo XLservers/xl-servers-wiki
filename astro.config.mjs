@@ -25,6 +25,7 @@ export default defineConfig({
 				github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
+				{ label: '👋Добро пожаловать!', slug: 'hellothere' },
 				{
 					label: 'Общее',
 					items: [
@@ -38,12 +39,13 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Основное',
+					label: 'BetaCube',
 					items: [
 						{
 							label: 'РП',
 							items: [
 								{ label: 'РП', slug: 'main/rp' },
+								{ label: 'Нарушения', slug: 'main/turma' },
 							],
 						},
 					],
