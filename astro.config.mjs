@@ -15,12 +15,6 @@ export default defineConfig({
 					// Configuration options go here.
 				}),
 				starlightSiteGraph(),
-				starlightDocSearch({
-					appId: 'KXQEIP6432',
-					apiKey: '687a2935e78b326c4f6f0d347a37336d',
-					indexName: 'yep',
-					clientOptionsModule: './src/config/docsearch.ts',
-				}),
 			],
 			title: 'XL-servers',
 			customCss: [
