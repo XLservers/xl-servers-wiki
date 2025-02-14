@@ -5,6 +5,7 @@ import starlightImageZoom from 'starlight-image-zoom';
 import starlightSiteGraph from 'starlight-site-graph';
 import starlightDocSearch from '@astrojs/starlight-docsearch';
 import starlightThemeObsidian from 'starlight-theme-obsidian';
+import starlightBlog from 'starlight-blog'
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,6 +16,7 @@ export default defineConfig({
 					// Configuration options go here.
 				}),
 				starlightSiteGraph(),
+				starlightBlog(),
 			],
 			title: 'XL-servers',
 			customCss: [
