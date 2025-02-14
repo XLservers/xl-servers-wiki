@@ -1,0 +1,43 @@
+---
+title: Доп. правила
+description: Дополнительный контент для правил.
+---
+
+import { FileTree } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Badge } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
+
+<Badge text="В разработке" variant="note" />
+
+### Посторонние **ПО**
+
+<Tabs>
+  <TabItem label="Запреты" icon="star">
+    <FileTree>
+
+    - .minecraft:
+      - mods/
+        - любые-миникарты -возможны исключения
+        - любые-виды-freecam -возможны исключения медийкам
+      - resourcepacks/
+        - на-улучшение-света -возможны исключения
+        - xray-подобные-ресурспаки
+
+    </FileTree>
+  </TabItem>
+  <TabItem label="Разрешенные" icon="star">
+      <Aside type="caution" title="Ой">
+        Пока что нету должной информации по этому поводу(
+      </Aside>
+
+      <FileTree>
+
+          - .minecraft:
+            - mods/
+            - resourcepacks/
+
+          </FileTree>
+  </TabItem>
+</Tabs>
