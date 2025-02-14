@@ -15,6 +15,9 @@ export default defineConfig({
 					// Configuration options go here.
 				}),
 				starlightSiteGraph(),
+				starlightDocSearch({
+					clientOptionsModule: './src/config/docsearch.ts',
+				}),
 			],
 			title: 'XL-servers',
 			customCss: [
