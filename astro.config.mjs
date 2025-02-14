@@ -22,7 +22,7 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/XLservers/xl-servers-wiki',
 			},
 			sidebar: [
 				{ label: '👋Добро пожаловать!', slug: 'hellothere' },
