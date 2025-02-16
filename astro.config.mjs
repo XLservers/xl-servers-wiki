@@ -41,16 +41,22 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'BetaCube',
+					label: 'BetaCube | сезон 3',
 					items: [
 						{
 							label: 'РП',
 							items: [
 								{ label: 'РП', slug: 'main/rp' },
 								{ label: 'Нарушения', slug: 'main/turma' },
+								{ label: 'Органы власти', slug: 'main/organsoflife' },
+								{ label: 'Лицензии', slug: 'main/license' },
 							],
 						},
 					],
+				},
+				{
+					label: 'XL',
+					items: [],
 				},
 			],
 		}),
