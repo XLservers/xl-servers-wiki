@@ -6,6 +6,7 @@ import starlightSiteGraph from 'starlight-site-graph';
 import starlightDocSearch from '@astrojs/starlight-docsearch';
 import starlightThemeObsidian from 'starlight-theme-obsidian';
 import starlightBlog from 'starlight-blog'
+import starlightSidebarTopics from 'starlight-sidebar-topics';
 
 // https://astro.build/config
 export default defineConfig({
@@ -36,6 +37,7 @@ export default defineConfig({
 							items: [
 								{ label: 'Правила проекта', slug: 'all/rules' },
 								{ label: 'Дополнительно', slug: 'all/additionrules' },
+								{ label: 'Правила дискорд сервера', slug: 'all/discordrules' },
 							],
 						},
 					],

@@ -17,6 +17,7 @@
     "starlight-blog": "^0.16.1",
     "starlight-contributor-list": "^0.2.0",
     "starlight-image-zoom": "^0.10.1",
+    "starlight-sidebar-topics": "^0.4.0",
     "starlight-site-graph": "^0.2.2",
     "starlight-theme-obsidian": "^0.1.1"
   }
