@@ -54,6 +54,17 @@ export default defineConfig({
 								{ label: 'Лицензии', slug: 'main/license' },
 							],
 						},
+						{
+							label: 'Общее сервера',
+							items: [
+								{
+									label: 'Фитчи',
+									items: [
+										{ label: 'Расы', slug: 'main/mechanics/races' },
+									],
+								},
+							],
+						},
 					],
 				},
 				{
