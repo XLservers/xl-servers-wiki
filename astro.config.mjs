@@ -46,6 +46,18 @@ export default defineConfig({
 					label: 'BetaCube | сезон 3',
 					items: [
 						{
+							label: 'Общее сервера',
+							items: [
+								{
+									label: 'Фитчи',
+									items: [
+										{ label: 'Расы', slug: 'main/mechanics/races' },
+										{ label: 'Изменения', slug: 'main/mechanics/changes' },
+									],
+								},
+							],
+						},
+						{
 							label: 'РП',
 							items: [
 								{ label: 'РП', slug: 'main/rp' },
@@ -55,14 +67,9 @@ export default defineConfig({
 							],
 						},
 						{
-							label: 'Общее сервера',
+							label: 'Законодательство BetaCube',
 							items: [
-								{
-									label: 'Фитчи',
-									items: [
-										{ label: 'Расы', slug: 'main/mechanics/races' },
-									],
-								},
+								{ label: 'Конституция сервера', slug: 'main/zacon/usticii' },
 							],
 						},
 					],
