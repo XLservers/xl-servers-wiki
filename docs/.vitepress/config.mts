@@ -25,7 +25,7 @@ export default defineConfig({
               items: [
                 { text: '📜 Конституция', link: '/main/constitytion' },
               ],
-           },
+          },
           { text: '🧪 Фитчи', link: '/main/additions' },
           { text: '⚙️ Команды', link: '/main/commands' },
         ]
