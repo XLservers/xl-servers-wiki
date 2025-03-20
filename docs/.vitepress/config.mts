@@ -21,7 +21,7 @@ export default defineConfig({
         items: [
           { 
            text: '📖 Правила', 
-           link: '/rules'
+           link: '/rules',
            items: [
              { text: '📜 Конституция', link: '/main/constitytion' },
            ],
