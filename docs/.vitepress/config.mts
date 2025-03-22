@@ -19,8 +19,13 @@ export default defineConfig({
       {
         text: 'BetaCube 3сезон',
         items: [
-          { text: '📖 Правила', link: '/rules' },
-          { text: '📜 Конституция', link: '/main/constitytion' },
+          { 
+           text: '📖 Правила', 
+           link: '/rules',
+           items: [
+             { text: '📜 Конституция', link: '/main/constitytion' },
+           ],
+          },
           { text: '🧪 Фитчи', link: '/main/additions' },
           { text: '⚙️ Команды', link: '/main/commands' },
         ]
