@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "XL-servers",
   description: "Лучший из тыйсячи!",
-  head: [["link", { rel: "icon", href: "/paintings/server_planet0001.svg" }]],
+  head: [["link", { rel: "icon", href: "/paintings/home-icon.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

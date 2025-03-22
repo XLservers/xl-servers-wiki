@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-![logoxl](/paintings/xlwaytoplay.png)
+![logoxl](/public/images/xlwaytoplay.png)
 # ⚡ Начать играть
 Разберемся, как же играть на сервере
 
@@ -42,13 +42,13 @@ ip сервера:```xls-minecraft.ru:25932```
 <br>версия: ```1.21.1 (fabric)```</br>
 :::
 - Заходим на сервер и вас кикает, пишет сообщение, что вам нужно отправить код боту `XL-auth#3768`
-![logoxl](/paintings/botavatar.png)
+![logoxl](/public/images/botavatar.png)
 - Пишем боту ваш код и он привязывает аккаунт
-![logoxl](/paintings/botmessage.png)
+![logoxl](/public/images/botmessage.png)
 - Затем заходим на сервер и играем!
 
 :::warning Если не получается написать
 Мы видели кучу жалоб на это, но это именно ваша ошибка
 - Зайдите в настройки конфиденциальности сервера и включите данные пункты:
-![logoxl](/paintings/botconfident.png)
+![logoxl](/public/images/botconfident.png)
 :::

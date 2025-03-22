@@ -1,7 +1,7 @@
 ---
 ---
 
-![logoxl](/paintings/xlrules.png)
+![logoxl](/public/images/xlrules.png)
 # 📖 Правила сервера
 Основные правила сервера.
 
