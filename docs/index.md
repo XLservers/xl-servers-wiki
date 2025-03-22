@@ -7,7 +7,7 @@ hero:
   text: "Лучший из тысячи!"
   tagline: От игроков, игрокам
   image:
-    src: /public/images/home-icon.svg
+    src: images/home-icon.svg
     alt: XL-servers
   actions:
     - theme: brand
