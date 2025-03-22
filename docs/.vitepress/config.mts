@@ -17,7 +17,7 @@ export default defineConfig({
       { text: 'Добро пожаловать👋', link: '/hello' },
       { text: '⚡ Начать играть', link: '/play' },
       {
-        text: 'BetaCube 3сезон',
+        text: 'Основы сервера',
         items: [
           { 
            text: '📖 Правила', 
@@ -28,6 +28,7 @@ export default defineConfig({
           },
           { text: '🧪 Фитчи', link: '/main/additions' },
           { text: '⚙️ Команды', link: '/main/commands' },
+          { text: '✨ Дополнения', link: '/main/dops' },
         ]
       }
     ],
