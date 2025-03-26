@@ -30,7 +30,7 @@ export default defineConfig({
           { text: '⚙️ Команды', link: '/main/commands' },
           { text: '✨ Дополнения', link: '/main/dops' },
         ]
-      }
+      },
       {
         text: 'Дополнительная информация'
         link: '/dop/dopinfo'
