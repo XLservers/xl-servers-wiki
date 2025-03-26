@@ -33,6 +33,7 @@ export default defineConfig({
       }
       {
         text: 'Дополнительная информация'
+        link: '/dop/dopinfo'
         items: []
       }
     ],
