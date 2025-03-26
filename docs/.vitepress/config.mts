@@ -31,6 +31,10 @@ export default defineConfig({
           { text: '✨ Дополнения', link: '/main/dops' },
         ]
       }
+      {
+        text: 'Дополнительная информация'
+        items: []
+      }
     ],
 
     socialLinks: [
