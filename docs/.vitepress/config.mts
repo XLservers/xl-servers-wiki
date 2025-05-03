@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "XL-servers",
+  title: "xl servers",
   description: "Лучший из тыйсячи!",
   head: [["link", { rel: "icon", href: "/paintings/home-icon.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Discord-сообщество', link: 'https://discord.gg/zFkXA9ETq5' },
-      { text: 'Онлайн-карта', link: 'http://xls-minecraft.ru:25574/' },
-      { text: 'Магазин', link: 'https://xl-servers.easydonate.ru/' },
+      { text: 'Discord-сообщество', link: 'https://discord.com/invite/uTVVsn5b6j' },
+      { text: 'Онлайн-карта', link: '/errorpage' },
+      { text: 'Магазин', link: 'https://xlservers.easydonate.ru/' },
     ],
 
     sidebar: [
@@ -26,16 +26,12 @@ export default defineConfig({
              { text: '📜 Конституция', link: '/main/constitytion' },
            ],
           },
+          { text: '🎓 Новичкам', link: '/main/welcomeplayer' },
           { text: '🧪 Фитчи', link: '/main/additions' },
           { text: '⚙️ Команды', link: '/main/commands' },
           { text: '✨ Дополнения', link: '/main/dops' },
         ]
       },
-      {
-        text: 'Дополнительная информация',
-        link: '/dop/dopinfo',
-        items: []
-      }
     ],
 
     socialLinks: [
