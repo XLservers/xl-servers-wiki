@@ -5,12 +5,13 @@ export default defineConfig({
   title: "xl servers",
   description: "Лучший из тыйсячи!",
   head: [["link", { rel: "icon", href: "/paintings/home-icon.svg" }]],
+  base: process.env.BASE_URL || '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Discord-сообщество', link: 'https://discord.com/invite/uTVVsn5b6j' },
-      { text: 'Онлайн-карта', link: '/errorpage' },
-      { text: 'Магазин', link: 'https://xlservers.easydonate.ru/' },
+      { text: 'Онлайн карта сервера', link: '/errorpage/' },
+      { text: 'Магазин', link: 'https://shop.xlserver.ru' },
     ],
 
     sidebar: [
@@ -19,8 +20,8 @@ export default defineConfig({
       {
         text: 'Основы сервера',
         items: [
-          { 
-           text: '📖 Правила', 
+          {
+           text: '📖 Правила',
            link: '/rules',
            items: [
              { text: '📜 Конституция', link: '/main/constitytion' },

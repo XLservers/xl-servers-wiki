@@ -8,5 +8,5 @@
 
 :::tip Магазин и подписки
 Может хочешь поддержать проект?
-<br>https://xl-servers.easydonate.ru/</br>
+<br>https://shop.xlserver.ru</br>
 :::
