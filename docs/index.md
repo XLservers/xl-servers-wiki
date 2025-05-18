@@ -21,5 +21,8 @@ features:
     details: Из-за админов, которым зачастую далеко все равно на свой сервер, мы создали наш сервер, который основывается на ошибках других серверов и делает один из лучших серверов в СНГ
   - title: Почему мы
     details: Как и везде говорилось - мы твой лучший бесплатный вариант! Мы делаем один из реально хороших сюжеток среди наших конкурентов, умеем управлять сообществом и обеспечиваем адекватную атмосферу среди игроков
+
+footer:
+  Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.
 ---
 

@@ -7,6 +7,14 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/paintings/home-icon.svg" }]],
   base: process.env.BASE_URL || '/',
   themeConfig: {
+    footer: {
+      message:
+          'Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.',
+      copyright:
+          "&copy; 2024 - " +
+          new Date().getFullYear() +
+          ' <a href="https://shop.xlservers.ru">xl servers copyright</a>',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Discord-сообщество', link: 'https://discord.com/invite/uTVVsn5b6j' },
