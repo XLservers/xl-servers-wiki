@@ -3,7 +3,7 @@ outline: deep
 ---
 ![logoxl](/images/logo.png)
 # xl servers WIKI
-Добро пожаловать в википедию по приватному серверу xl servers!
+> Добро пожаловать в википедию по приватному серверу xl servers!
 
 ---
 
